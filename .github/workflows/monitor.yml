@@ -3,7 +3,7 @@ name: Monitor ziyuanzu.com Resources
 on:
   schedule:
     # 每2小时运行一次（UTC时间）
-    - cron: '0 */2 * * *'
+    - cron: '0 2 */2 * *'
   workflow_dispatch:
 
 permissions:
